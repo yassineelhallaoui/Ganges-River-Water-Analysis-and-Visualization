@@ -13,9 +13,7 @@ Pale Blue Dot: Visualization Challenge, Clean Water and Sanitation
 - [Data Sources](#data-sources)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
