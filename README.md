@@ -50,7 +50,7 @@ To run the Ganges River Water Analysis and Visualization project, ensure you hav
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ganges-river-water-analysis.git
+   git clone https://github.com/yassineelhallaoui/Ganges-River-Water-Analysis-and-Visualization.git
 
 2. Navigate to the project directory:
 cd ganges-river-water-analysis
