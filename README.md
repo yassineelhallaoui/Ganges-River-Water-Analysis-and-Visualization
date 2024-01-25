@@ -145,7 +145,7 @@ Visualizations are generated to present data in an understandable format.
 Automated interactive reports are generated to facilitate communication of findings.
 
 ## Results
-The project results in comprehensive visualizations and insights into the water quality of the are of interest in the Ganges River. Users can explore trends, correlations, and spatial patterns through interactive plots and reports.
+The project results in comprehensive interactive visualizations and insights into the water quality of the area of interest in the Ganges River. Users can explore trends, correlations, and spatial patterns through interactive plots and reports.
 
 ## License
 This project is licensed under the MIT License.
