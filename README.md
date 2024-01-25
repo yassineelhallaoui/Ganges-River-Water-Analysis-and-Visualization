@@ -1,6 +1,8 @@
-# Ganges-River-Water-Analysis-and-Visualization
-Pale Blue Dot: Visualization Challenge, Clean Water and Sanitation
-## Table of Contents
+## Pale Blue Dot: Visualization Challenge, Clean Water and Sanitation
+
+### Ganges-River-Water-Analysis-and-Visualization
+
+### Table of Contents
 
 - [Introduction](#introduction)
 - [Motivation](#motivation)
@@ -15,15 +17,15 @@ Pale Blue Dot: Visualization Challenge, Clean Water and Sanitation
 - [Results](#results)
 - [License](#license)
 
-## Introduction
+### Introduction
 
 Welcome to the Ganges River Water Analysis and Visualization project repository! This project aims to provide a comprehensive analysis of water quality in a selected area in the Ganges River, India, utilizing satellite imagery, weather data, and water quality indices. The repository contains Python scripts and Jupyter Notebooks that automate the retrieval of satellite and weather data, process the data, and generate visualizations to gain insights into the river's water quality.
 
-## Motivation
+### Motivation
 
 The Ganges River is a vital water resource for millions of people and plays a crucial role in the ecosystem. Monitoring its water quality is essential for understanding environmental changes, ensuring the well-being of communities, and facilitating sustainable management practices. This project addresses the need for an integrated approach to water quality analysis, bringing together satellite imagery, weather data, and advanced analytics.
 
-## Project Overview
+### Project Overview
 
 The Ganges River Water Analysis and Visualization project encompass several key components:
 
@@ -37,7 +39,7 @@ The Ganges River Water Analysis and Visualization project encompass several key 
 
 5. **Automated Reporting:** The repository includes scripts for generating automated reports in HTML format. These reports include interactive visualizations and key findings, making it easier to share and communicate results.
 
-## Requirements
+### Requirements
 
 To run the Ganges River Water Analysis and Visualization project, ensure you have the following requirements installed:
 
@@ -47,7 +49,7 @@ To run the Ganges River Water Analysis and Visualization project, ensure you hav
 - Satellite Imagery bands 02, 03, 04, 08, 09, 11, 12 adn the TrueColor image.
 - GIS Shape and geojson files for the area of interest, in this project, we have defined a boundary for a selected area along the Ganges River in India..
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
@@ -62,11 +64,11 @@ pip install -r requirements.txt
 
 4. Set up your CDS API account and configure the CDS API key in the .cdsapirc file.
 
-## Usage
+### Usage
 1. Run the Jupyter Notebook:
 2. Open the notebook Ganges_River_Water_Analysis.ipynb and follow the instructions provided within the notebook.
 
-## Features
+### Features
 The Ganges River Water Analysis and Visualization project offer the following features:
 
 1. Satellite Image Processing:
@@ -88,7 +90,7 @@ Geographic mapping of water quality and weather data for spatial insights.
 5. Automated Reporting:
 Generation of HTML reports with interactive visualizations for easy sharing of results.
 
-## Folder Structure
+### Folder Structure
 The project repository is organized into the following folders:
 
 1. GIS: Contains raster images and shapefiles related to the Ganges River.
@@ -119,14 +121,14 @@ deliverables Folder Structure <br />
 
 Feel free to explore each folder for detailed information on data and scripts.
 
-## Data Sources
+### Data Sources
 1. Sentinel-2 Satellite Imagery:
 The project uses Sentinel-2 Level 2A bands for processing, including the Near Infrared (B08) bands, and other bands mentioned on the Requirements.
 
 2. ERA5 Reanalysis Weather Data:
 Weather data is obtained from the ERA5 reanalysis dataset, providing information on temperature, precipitation, wind speed, and more.
 
-## Methodology
+### Methodology
 The Ganges River Water Analysis and Visualization project follows a systematic methodology:
 
 1. Data Retrieval:
@@ -144,8 +146,11 @@ Visualizations are generated to present data in an understandable format.
 5. Reporting:
 Automated interactive reports are generated to facilitate communication of findings.
 
-## Results
+### Results
 The project results in comprehensive interactive visualizations and insights into the water quality of the area of interest in the Ganges River. Users can explore trends, correlations, and spatial patterns through interactive plots and reports.
 
-## License
+### Team
+Team: (The_AlchemYsts) [Yassine Elhallaoui & Youness Lahwasni]
+
+### License
 This project is licensed under the MIT License.
