@@ -29,7 +29,7 @@ The Ganges River Water Analysis and Visualization project encompass several key 
 
 1. **Satellite Image Processing:** The project utilizes Sentinel-2 satellite imagery from https://dataspace.copernicus.eu/ to detect water bodies and calculate various water quality indices such as Normalized Difference Water Index (NDWI), Normalized Difference Snow Index (NDSI), Turbidity Index, Chlorophyll Concentration, and Evapotranspiration Index.
 
-2. **Weather Data Retrieval:** Weather data is obtained from the ERA5 reanalysis dataset using the Copernicus Climate Data Store (CDS) API. The data includes information such as temperature, precipitation, wind speed, cloud cover, and more.
+2. **Weather Data Retrieval:** Weather data is obtained from the ERA5 reanalysis dataset using the Copernicus Climate Data Store (CDS) API https://cds.climate.copernicus.eu/cdsapp#!/home. The data includes information such as temperature, precipitation, wind speed, cloud cover, and more.
 
 3. **Data Integration and Analysis:** The retrieved satellite and weather data are integrated and analyzed to understand correlations and trends. The analysis provides valuable insights into the relationship between weather conditions and water quality in the Ganges River.
 
