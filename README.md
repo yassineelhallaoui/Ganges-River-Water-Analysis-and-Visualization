@@ -90,6 +90,10 @@ Generation of HTML reports with interactive visualizations for easy sharing of r
 
 ## Folder Structure
 The project repository is organized into the following folders:
+├── GIS
+│   ├── GIS_Locations_Extends.qgz
+│   ├── Rasters
+│   │   ├── ANWR
 
 1. GIS: Contains raster images and shapefiles related to the Ganges River.
 GIS Folder Structure
