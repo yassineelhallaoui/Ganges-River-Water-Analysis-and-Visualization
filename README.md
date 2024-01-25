@@ -90,34 +90,32 @@ Generation of HTML reports with interactive visualizations for easy sharing of r
 
 ## Folder Structure
 The project repository is organized into the following folders:
-├── GIS
-│   ├── GIS_Locations_Extends.qgz
-│   ├── Rasters
-│   │   ├── ANWR
 
 1. GIS: Contains raster images and shapefiles related to the Ganges River.
-GIS Folder Structure
-├── GIS -> Input data source folder.
-│   ├── Rasters
-│   │   ├── Project_Name
-│   │   │   ├── Zip files contain the satellite imagery bands specified in the requirements. Ensure that each zip file name ends with the satellite image's date and time in the following format: DDMMYYYY.zip.
-│   ├── Shape_File
-│   │   ├── Project_Name
-└─  ─   ─   ├── Shapefile and GeoJSON file of the selected area of interest (polygon boundary).
+
+GIS Folder Structure <br />
+<br />├── GIS -> <b>-> Input data source folder.</b>
+<br />│   ├── Rasters
+<br />│   │   ├── Project_Name
+<br />│   │   │   ├── <b>Zip files contain the satellite imagery bands. Ensure each zip file name ends with date of the image (DDMMYYYY.zip).</b>
+<br />│   ├── Shape_File
+<br />│   │   ├── Project_Name
+<br />└─  ─   ─   ├── <b>Shapefile and GeoJSON file of the selected area of interest (polygon boundary).</b>
 
 2. deliverables: Output directory for results and visualizations.
 
-├── deliverables -> Output data source folder. 
-│   ├── Project_Name
-│   │   ├── GIS_Analysis_Plot -> Satellite images, GIS water quality indices, and plots have been exported as .png files.
-│   │   ├── Water_Quality_Plots -> Exported Interactive html Plot
-│   │   │   ├── 3d_Chlorophyll_Concentration_scatter.html
-│   │   │   ├── 3d_Turbidity_Index_scatter.html
-│   │   │   ├── Water_Quality_pairplot.png
-│   │   ├── Weather_dataframes -> Downloaded weather dataframes that correspond to the satellite image date and time. Note that it's a 24-hour weather measurement, with data available for each hour (temperature, total precipitation, ...)
-│   │   ├── Weather_Quality_Plots -> Processed weather data has been exported as line plots for each day.
-│   │   ├── water_quality_indices dataframe .csv -> The exported dataframe contains the water quality indices in numerical format.
-└── ─   └── Water_Visualization_DashBoard.html -> The final report serves as a visualization solution with interactive features.
+deliverables Folder Structure <br />
+<br />├── deliverables <b>-> Output data source folder.</b>
+<br />│   ├── Project_Name
+<br />│   │   ├── GIS_Analysis_Plot <b>-> Satellite images, GIS water quality indices, and plots have been exported as .png files.</b>
+<br />│   │   ├── Water_Quality_Plots <b>-> Exported Interactive html Plot.</b>
+<br />│   │   │   ├── 3d_Chlorophyll_Concentration_scatter.html
+<br />│   │   │   ├── 3d_Turbidity_Index_scatter.html
+<br />│   │   │   ├── Water_Quality_pairplot.png
+<br />│   │   ├── Weather_dataframes <b>-> Downloaded weather dataframes that correspond to the satellite image date and time.</b>
+<br />│   │   ├── Weather_Quality_Plots <b>-> Processed weather data has been exported as line plots for each day.</b>
+<br />│   │   ├── water_quality_indices dataframe .csv <b>-> The exported dataframe contains the water quality indices in numerical format.</b>
+<br />└── ─   └── Water_Visualization_DashBoard.html <b>-> The final report serves as a visualization solution with interactive features.</b>
 
 Feel free to explore each folder for detailed information on data and scripts.
 
