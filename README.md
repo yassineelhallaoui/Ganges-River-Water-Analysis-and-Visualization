@@ -15,6 +15,7 @@
 - [Data Sources](#data-sources)
 - [Methodology](#methodology)
 - [Results](#results)
+- [Team](#team)
 - [License](#license)
 
 ### Introduction
