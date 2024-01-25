@@ -17,7 +17,7 @@ Pale Blue Dot: Visualization Challenge, Clean Water and Sanitation
 
 ## Introduction
 
-Welcome to the Ganges River Water Analysis and Visualization project repository! This project aims to provide a comprehensive analysis of water quality in the Ganges River, India, utilizing satellite imagery, weather data, and water quality indices. The repository contains Python scripts and Jupyter Notebooks that automate the retrieval of satellite and weather data, process the data, and generate visualizations to gain insights into the river's water quality.
+Welcome to the Ganges River Water Analysis and Visualization project repository! This project aims to provide a comprehensive analysis of water quality in a selected area in the Ganges River, India, utilizing satellite imagery, weather data, and water quality indices. The repository contains Python scripts and Jupyter Notebooks that automate the retrieval of satellite and weather data, process the data, and generate visualizations to gain insights into the river's water quality.
 
 ## Motivation
 
@@ -44,6 +44,8 @@ To run the Ganges River Water Analysis and Visualization project, ensure you hav
 - Python 3.x
 - Jupyter Notebook
 - Copernicus Climate Data Store (CDS) API account (for accessing weather data)
+- Satellite Imagery bands 02, 03, 04, 08, 09, 11, 12 adn the TrueColor image.
+- GIS Shape and geojson files for the area of interest, in this project, we have defined a boundary for a selected area along the Ganges River in India..
 
 ## Installation
 
@@ -90,12 +92,34 @@ Generation of HTML reports with interactive visualizations for easy sharing of r
 The project repository is organized into the following folders:
 
 1. GIS: Contains raster images and shapefiles related to the Ganges River.
+GIS Folder Structure
+├── GIS -> Input data source folder.
+│   ├── Rasters
+│   │   ├── Project_Name
+│   │   │   ├── Zip files contain the satellite imagery bands specified in the requirements. Ensure that each zip file name ends with the satellite image's date and time in the following format: DDMMYYYY.zip.
+│   ├── Shape_File
+│   │   ├── Project_Name
+└─  ─   ─   ├── Shapefile and GeoJSON file of the selected area of interest (polygon boundary).
+
 2. deliverables: Output directory for results and visualizations.
+
+├── deliverables -> Output data source folder. 
+│   ├── Project_Name
+│   │   ├── GIS_Analysis_Plot -> Satellite images, GIS water quality indices, and plots have been exported as .png files.
+│   │   ├── Water_Quality_Plots -> Exported Interactive html Plot
+│   │   │   ├── 3d_Chlorophyll_Concentration_scatter.html
+│   │   │   ├── 3d_Turbidity_Index_scatter.html
+│   │   │   ├── Water_Quality_pairplot.png
+│   │   ├── Weather_dataframes -> Downloaded weather dataframes that correspond to the satellite image date and time. Note that it's a 24-hour weather measurement, with data available for each hour (temperature, total precipitation, ...)
+│   │   ├── Weather_Quality_Plots -> Processed weather data has been exported as line plots for each day.
+│   │   ├── water_quality_indices dataframe .csv -> The exported dataframe contains the water quality indices in numerical format.
+└── ─   └── Water_Visualization_DashBoard.html -> The final report serves as a visualization solution with interactive features.
+
 Feel free to explore each folder for detailed information on data and scripts.
 
 ## Data Sources
 1. Sentinel-2 Satellite Imagery:
-The project uses Sentinel-2 Level 2A bands for processing, including the Green (B03) and Near Infrared (B08) bands.
+The project uses Sentinel-2 Level 2A bands for processing, including the Near Infrared (B08) bands, and other bands mentioned on the Requirements.
 
 2. ERA5 Reanalysis Weather Data:
 Weather data is obtained from the ERA5 reanalysis dataset, providing information on temperature, precipitation, wind speed, and more.
@@ -107,7 +131,7 @@ The Ganges River Water Analysis and Visualization project follows a systematic m
 Satellite imagery and weather data are retrieved from relevant sources.
 
 2. Preprocessing:
-Data preprocessing involves tasks such as extracting relevant bands from satellite imagery and converting temperature units.
+Data preprocessing involves tasks such as extracting relevant bands from satellite imagery and dealing with weather data and converting necessary units.
 
 3. Analysis:
 Statistical analysis and correlation studies are conducted to derive insights.
@@ -116,10 +140,10 @@ Statistical analysis and correlation studies are conducted to derive insights.
 Visualizations are generated to present data in an understandable format.
 
 5. Reporting:
-Automated reports are generated to facilitate communication of findings.
+Automated interactive reports are generated to facilitate communication of findings.
 
 ## Results
-The project results in comprehensive visualizations and insights into the water quality of the Ganges River. Users can explore trends, correlations, and spatial patterns through interactive plots and reports.
+The project results in comprehensive visualizations and insights into the water quality of the are of interest in the Ganges River. Users can explore trends, correlations, and spatial patterns through interactive plots and reports.
 
 ## License
 This project is licensed under the MIT License.
