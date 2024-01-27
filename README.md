@@ -155,3 +155,5 @@ Team: (The_AlchemYsts) [Yassine Elhallaoui & Youness Lahwasni]
 
 ### License
 This project is licensed under the MIT License.
+
+<span style="color: red"> Note : dont forget to add your cds API key 'its free just register with cds services in https://cds.climate.copernicus.eu/cdsapp#!/home' </span>
